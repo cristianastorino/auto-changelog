@@ -76,7 +76,7 @@ const getTemplate = async template => {
 const cleanTemplate = template => {
   return template
     // Remove indentation
-    .replace(/\n +/g, '\n')
+    //.replace(/\n +/g, '\n')
     .replace(/^ +/, '')
     // Fix multiple blank lines
     .replace(/\n\n\n+/g, '\n\n')
